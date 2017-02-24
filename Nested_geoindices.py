@@ -1,6 +1,7 @@
 from math import pi, cos, sin, asin, log
 
-# Published here: http://pastebin.com/CR6zg3jT
+# Published here:
+# http://pastebin.com/CR6zg3jT
 
 # Adapted from
 # c:\Users\User\Dropbox\Programming\Python\EarthSplitter.2016-11-11.py
@@ -10,11 +11,8 @@ alpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 # alpha = '0123456789abcdef'
 
 deg = pi / 180
-
 Earth_radius = 6371000
-
 full_resolution = 5  # meters
-
 y0, y1, x0, x1 = range(4)
 ver, hor = range(2)
 
@@ -22,8 +20,7 @@ ver, hor = range(2)
 def main():
     area_from_index('PYTHON')
     area_from_index('REDDIT')
-    index_from_coord(45, 11)
-    index_from_coord(55.95, 92.35)
+    index_from_coord(30.099358, 51.389368) # Chernobyl
 
 
 full_code_length = int(
