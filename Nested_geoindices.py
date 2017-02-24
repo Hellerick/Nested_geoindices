@@ -140,7 +140,7 @@ def metric(size):  # Size in degrees
 
 def index_from_coord(lat, lon, show=True):
     print('== Get nested indices for {}, {} =='.format(lat, lon))
-    print('{:'+str(full_code_length)+'s}   Latitudes Longitudes Size'.format('Indices'))
+    print(('{:'+str(full_code_length)+'s}   Latitudes Longitudes Size').format('Indices'))
     area = [-90, +90, -180, +180]
     code = ''
     while len(code) < full_code_length:
